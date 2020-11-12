@@ -12,7 +12,8 @@
     "last 1 Chrome version"
   ],
   "scripts": {
-    "start": "parcel index.html",
-    "build": "node server.js"
+    "start-dev": "parcel index.html",
+    "start": "node server.js",
+    "build": "parcel build index.html"
   }
 }
