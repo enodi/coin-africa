@@ -1,8 +1,5 @@
 import { renderUserInfo } from "./user-info";
 import { renderRepositories } from "./repositories";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 const options = {
   method: "post",
